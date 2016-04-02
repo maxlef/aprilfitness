@@ -47,8 +47,8 @@ header h1 {
 }
 
 header nav {
-    padding-top: 3%;
-    background-color: #ccc;
+    padding-top: 4%;
+    /* background-color: #ccc; */
 }
 
 header p {
