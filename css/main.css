@@ -1,11 +1,30 @@
 
-html, body { height: 100%; padding: 0; margin: 0px; }
-#div1 {  width: 50%; height: 45%; float: left; background: #DDD; }
-#div2 {  width: 50%; height: 45%; float: left; background: #AAA; }
-#div3 {  width: 50%; height: 45%; float: left; background: #777; }
-#div4 {  width: 50%; height: 45%; float: left; background: #444; }
+html, body { 
+    height: 100%; 
+    padding: 0; 
+    margin: 0px; 
+}
+#div1, #div2, #div3, #div4 {  
+    width: 50%; 
+    height: 45%; 
+    float: left;
+}
 
+#div1 {
+    background: #DDD; 
+}
 
+#div2 {
+    background: #bbb; 
+}
+
+#div3 {
+    background: #aaa; 
+}
+
+#div4 {
+    background: #444; 
+}
 
 header {
     height: 10%;
