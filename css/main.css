@@ -4,6 +4,24 @@ html, body {
     padding: 0; 
     margin: 0px; 
 }
+
+.contact {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 3px;
+    margin:0;
+    background-color: #FC8EAC;
+    color: white;
+}
+
+.contact:hover{
+    background-color: #E75480;
+    color:white;
+    cursor: pointer;
+}
+
+/* 
+
 #div1, #div2, #div3, #div4 {  
     width: 50%; 
     height: 45%; 
@@ -12,18 +30,102 @@ html, body {
 
 #div1 {
     background: #DDD; 
+    background-image: url(../img/glamour/glamour.jpg);
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#div1 h1 {
+    position: relative;
+    bottom: 0;
+    float: right;
+    width:300px;
+    height:70px;
+    background-color: pink;
+    font-weight: 500;
+    color:white;
 }
 
 #div2 {
     background: #bbb; 
+    background-image: url(../img/fitness/fitness2.jpg);
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center right; 
 }
 
 #div3 {
     background: #aaa; 
+    background-image: url(../img/fitness/fitness.jpg);
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 #div4 {
     background: #444; 
+    background-image: url(../img/glamour/glamour2.jpg);
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+*/
+
+#div1, #div2{  
+    width: 50%; 
+    height: 90%; 
+    float: left;
+}
+
+#div1 {
+    background: #DDD; 
+    background-image: url(../img/fitness/fitness3.jpg);
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: top center;
+}
+
+.div1 , .div2{
+    font-size: 30px;
+}
+
+.div01{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 5%;
+    right:50%;
+    width:25%;
+    height:9%;
+    background-color: royalblue;
+    font-weight: 900;
+    color:white;
+}
+
+#div2 {
+    background: #bbb; 
+    background-image: url(../img/glamour/glamour2.jpg);
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.div02 {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 5%;
+    right:0%;
+    width:25%;
+    height:9%;
+    background-color: darkred;
+    font-weight: 900;
+    color:white;
 }
 
 header {
@@ -43,14 +145,10 @@ header h1 {
     font-weight: 700;
     background-color: white;
     margin:0;
-    padding-top: 3%;
+    padding-top: 0%;
 }
 
 header nav {
-    padding-top: 4%;
+    padding-top: 0%;
     /* background-color: #ccc; */
-}
-
-header p {
-    margin:0;
 }
