@@ -20,59 +20,6 @@ html, body {
     cursor: pointer;
 }
 
-/* 
-
-#div1, #div2, #div3, #div4 {  
-    width: 50%; 
-    height: 45%; 
-    float: left;
-}
-
-#div1 {
-    background: #DDD; 
-    background-image: url(../img/glamour/glamour.jpg);
-    background-size:     cover;                 
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-#div1 h1 {
-    position: relative;
-    bottom: 0;
-    float: right;
-    width:300px;
-    height:70px;
-    background-color: pink;
-    font-weight: 500;
-    color:white;
-}
-
-#div2 {
-    background: #bbb; 
-    background-image: url(../img/fitness/fitness2.jpg);
-    background-size:     cover;                 
-    background-repeat:   no-repeat;
-    background-position: center right; 
-}
-
-#div3 {
-    background: #aaa; 
-    background-image: url(../img/fitness/fitness.jpg);
-    background-size:     cover;                 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
-
-#div4 {
-    background: #444; 
-    background-image: url(../img/glamour/glamour2.jpg);
-    background-size:     cover;                 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
-
-*/
-
 #div1, #div2{  
     width: 50%; 
     height: 90%; 
@@ -129,16 +76,12 @@ html, body {
 }
 
 header {
-    height: 10%;
+    height: 60px;
 }
 
 header .row{
 
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items:center;
-    height: 100%;
+    height: 60px;
 }
 
 header h1 {
