@@ -1,0 +1,23 @@
+#masonry {
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100vw;
+	font-size: 0; 
+	margin-top: 55px;
+}
+#masonry img { 
+  padding: 0.5%;
+	width: 50%;
+	transition: .8s opacity;
+	opacity: 0.5;
+}
+#masonry:hover img {
+	opacity: 0.3;
+}
+#masonry:hover img:hover {
+	opacity: 1;
+}
