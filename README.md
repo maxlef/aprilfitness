@@ -4,5 +4,5 @@ Developped for a fitness model with different features that will be added along 
 
 ## Credits
 
-Masonry for grid layout.
+Masonry for grid layout.  
 Codrops for the inspiration.
