@@ -1,3 +1,7 @@
+.navbar {
+	opacity: 0.87;
+}
+
 #masonry {
 	display: -ms-flexbox;
 	-ms-flex-direction: column;
